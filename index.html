@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="w-fit h-fit mx-auto mt-10">
+        <img src="profile.jpg" alt="Samuel Asare-Adjei" data-testid="slackDisplayImage" class="rounded-full h-[250px] w-[250px] shadow-2xl">
+    </section>
+    <main>
+        <h1 class="text-center pt-10 text-3xl font-bold">Samuel  Asare-Adjei</h1>
+        <p class="text-center text-xl font-bold">Frontend Track</p>
+    </main>
+    <p class="text-center mt-10 text-lg">Today is <span data-testid="currentDayOfTheWeek" id="day"></span> </p>
+
+    <p data-testid="currentUTCTime" class="text-center mt-2">The time is <span id="time"></span></p>
+
+    <p class="text-center mt-3">View the code for this project on my 
+        <a href="#" data-testid=“githubURL”>github</a>
+    </p>
+</body>
+
+<script src="index.js"></script>
+</html>
